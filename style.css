@@ -1,9 +1,22 @@
 #top{
     border: 5px solid red;
-    height: 80px;
-}
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 
 a{
     margin: 20px;
+    font-family: monospace;
+    font-size: 20px;
+}
 }
 
+h1{
+    background-color: aqua;
+    border: 2px solid black;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
