@@ -48,3 +48,9 @@ h1{
     background-color: pink;
     width: 49%;
 }
+
+#botten{
+    border: 5px solid yellow;
+    width: 80%;
+    margin: auto;
+}
