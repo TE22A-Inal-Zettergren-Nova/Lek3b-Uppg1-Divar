@@ -5,6 +5,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    width: 80%;
+    margin: auto;
 
 a{
     margin: 20px;
@@ -13,10 +15,36 @@ a{
 }
 }
 
+
 h1{
+    text-align: center;
+}
+#rubrik1{
     background-color: aqua;
     border: 2px solid black;
-    text-align: center;
     padding-left: 60px;
     padding-right: 60px;
+}
+
+#mellan{
+    border: 5px solid orange;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+#rubrik_v{
+    border: 2px solid black;
+    background-color: yellow;
+    width: 49%;
+}
+
+#rubrik_h{
+    border: 2px solid black;
+    background-color: pink;
+    width: 49%;
 }
